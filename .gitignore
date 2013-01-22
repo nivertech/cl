@@ -17,6 +17,11 @@ TAGS
 #/c_src/config.*   config.build.in
 /c_src/configure
 
+c_src/config.32.build
+c_src/config.64.build
+c_src/config.log
+c_src/config.status
+
 # Derivates
 /obj/*
 /lib/*

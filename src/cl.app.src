@@ -1,6 +1,6 @@
 {application, cl,
  [{description, "OpenCL binding for Erlang"},
-  {vsn, "%VSN%"},
+  {vsn, "1.1"},
   {modules, [cl, clu]},
   {env, []},
   {applications,[kernel,stdlib]}
