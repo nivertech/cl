@@ -22,6 +22,10 @@ c_src/config.64.build
 c_src/config.log
 c_src/config.status
 
+c_src/*.o
+
 # Derivates
-/obj/*
-/lib/*
+obj/*
+lib/*
+
+priv/cl_drv.so
