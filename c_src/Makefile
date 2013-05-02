@@ -68,6 +68,8 @@ endif
 
 ifeq ($(OSNAME), Linux)
 LINUX = Yes
+# TODO - what about other directories
+#OPENCL_DIR=/opt/AMDAPP/
 CFLAGS += -I/usr/include/nvidia-current
 CFLAGS += -I/opt/AMDAPP/include
 ifeq ($(WORDSIZE), 32)
